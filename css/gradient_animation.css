@@ -1,0 +1,12 @@
+html,body {
+    background: linear-gradient(270deg, #39bc9b, #7354cb, #cd7c41);
+    background-size: 500% 500%;
+    animation: BackgroundGradientAnimation 30s ease infinite;
+}
+
+@keyframes BackgroundGradientAnimation { 
+
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
